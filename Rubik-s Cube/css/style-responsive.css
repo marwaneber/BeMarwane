@@ -1,0 +1,242 @@
+ /*  Theme Name : Rubik's Cube
+  *   Designer   : Marwane Beriich
+  *   Version    : 1.0
+  *   Thanks To  : Arabs Designers Group
+  */
+@media only screen and (max-width:798px){
+  /* <Main Elements>
+  *********************/
+  body{
+  	margin: 0;
+  	padding: 0;
+  	font-family: Arial ,sans-serif;
+  	background-image: url(../Images/Background-img-resp.jpg) ;
+  	background-attachment:fixed;
+  	background-repeat:no-repeat;
+  	background-size:cover;
+  }
+  header{
+  	border-top: 5px solid #0085ec;
+  	height: 100vh;
+  	width: 100%;
+  	position: relative;
+  	background:linear-gradient(transparent ,#fff);
+  }
+  a{
+  	text-decoration: none;
+  }
+  /* </main Elements > *
+  **********************
+  * <Logo & Nav> */
+  #logo{
+  	padding: 10px 10px;
+  	margin: 20vh auto 0;
+  	text-align:left;
+  	width:auto;
+  }
+  #logo a{
+  	color: #d4ecff;
+  	font-size:12vh;
+  	margin:0;
+  	padding:0;
+  }
+  #description{
+    font-size:20px;
+    color:#0085ec;
+    margin:20px auto 0 auto; 
+    padding:5px 10px;
+    border:3px solid #fff;
+    text-transform:capitalize;
+    text-align:center;
+  }
+  #nav{
+  	list-style-type: none; 
+  	margin: 0;
+    padding: 0;
+  }
+  #nav #item{
+  	float: right;
+  	padding: 10px 20px;
+  	margin: 0px;
+  	background:rgba(255,255,255,.3);
+  	color:#0085ec;
+  }
+  #nav #item .link{
+  	color: inherit;
+  }
+  /* </Logo & Nav >
+  *****************
+  *  <Container >*/
+  #container {
+    width:80%;
+    margin:10% auto;
+    padding:0;
+    background:#eee;
+    border:5px solid #0085ec;
+  }
+  #container  h2{
+    color:#4A4A4A;
+    padding:20px 15px;
+    font-size:24px;
+    margin:0;
+    text-align:center;
+  }
+  #container hr{
+    width:80%;
+    border:1px dashed #555;
+    margin:0px auto;
+  }
+  /* <welcomeDiv > */
+  #welcomeDiv{
+    width:80%;
+    margin:5% auto 0;
+    text-align:center;
+  }
+  /* </welcomeDiv> */
+  /* ******************* */
+  /* <howWorkIt> */
+  #howWorkIt{
+    width:100%;
+    margin:5% auto 0;
+    padding:0;
+    text-align:center;
+  }
+  #howWorkIt *{
+    margin:0;
+  }
+  #howWorkIt #topic{
+    width:80%;
+    margin:10% auto;
+    display:block;
+    background:#fefefe;
+    box-shadow:0 0 2px 1px #ccc;
+    padding:2.5%;
+    text-align:left;
+    border-radius:5px;
+  }
+  #howWorkIt #topic:hover{
+    box-shadow:0 0 2px 1px #61CCFF;
+  }
+  #howWorkIt #topic img{
+    width:45%;
+    height:auto;
+    border-radius:6px;
+    margin:0 auto;
+  }
+  #howWorkIt #topic p{
+    font-size:16px;
+    color:#555;
+  }
+  #howWorkIt #topic h2{
+    font-size:24px;
+    color:#3BAFFF;
+    text-align:left;
+    padding:0;
+  }
+  /* </howWorkIt> */
+  /* ************************ */
+  /* <Colors> */
+  #colors {
+    width:100%;
+    margin:5% auto;
+    text-align:center;
+    padding:0;
+  }
+  #colors #topic{
+    width:25%;
+    margin:5% 2.5% 0% 2.5%;
+    padding:0;
+    display:inline-block;
+    position:relative;
+  }
+  #colors #topic h2 {
+    font-size:20px;
+    padding:10px;
+    margin:0;
+    width:90%;
+    height:30px;
+    color:#555;
+  }
+  #colors #topic img{
+    margin:0;
+    padding:0;
+    width:100%;
+    height:100%;
+    border:3px solid #555;
+    border-radius:8px;
+  }
+  /* </Colors> */
+  /***********************/
+  /* <namesOfRubiks> */
+  #namesOfRubiks{
+    width:100%;
+    margin:5% auto;
+    text-align:center;
+    padding:0;
+  }
+  #namesOfRubiks #topic{
+    width: 80%;
+    margin: 10% auto;
+    padding:0;
+  }
+  #namesOfRubiks #topic #child{
+    box-shadow:  0 0 5px 2px #999;
+    margin: 1.5% 1%;
+    padding: 0;
+    width: 47%;
+    height: auto;
+    text-align: left;
+    display: inline-block;
+  }
+  #namesOfRubiks #topic #child img{
+    width: 100%;
+    height: 100%;
+    margin: 0 0; 
+    padding: 0;
+  }
+  #namesOfRubiks #topic #child p{
+    font-size:14px;
+    margin: 0;
+    padding: 10px 8px ;
+    background:#63cdff;
+  }
+  /* </namesOfRubiks> */
+  
+  /* </Container>
+  *****************
+  *  <Footer >    */
+  footer{
+    background: #2286ec;
+    margin: 0;
+    padding: 5%;
+    border-top:10px solid #eee;
+  }
+  footer *{
+    color:#fff;
+    margin:0;
+    padding:0;
+  }
+  footer #informations ul{
+    list-style:none;
+  }
+  footer #informations ul li{
+    display:block;
+  }
+  footer #informations div{  
+    border:none;
+    border-bottom:2px dashed #aee;
+    display:block;
+    padding:15px 25px;
+    top:0;
+  }
+  footer #informations div label{
+    color:#33E7F4;
+  }
+  footer #author{
+    border:none;
+    border-top:2px solid #aee;
+    padding:10px;
+    display:block;
+  }
+  /* </Footer> */
+}   
