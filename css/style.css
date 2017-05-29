@@ -1,0 +1,46 @@
+/*  Designed and Developed by : Marwane Beriich
+*		Version : 0.1
+*		Last edited : 29/05/2017
+*/
+body{
+	background:#2196f3;
+/* 	background:-o-linear-gradient(#55f,#5ff);
+	background:-moz-linear-gradient(#55f,#5ff);
+	background:-webkit-linear-gradient(#55f,#5ff);
+	background:linear-gradient(#55f,#5ff); */
+	height:100%;
+	background-attachment:fixed;
+	font-family:arial;
+}
+header ,section{
+	width:60%;
+	margin:5% auto 0 auto;
+	padding:30px;
+	border-radius:4px;
+	background:#eee;
+	text-align:center;
+}
+header h1{
+	text-align:left;
+	color:#444;
+	font-size:30px;
+}
+section h2{
+	color:skyblue;
+}
+section a{
+	display:block;
+	padding:10px ;
+	font-size:20px;
+	color:orange;
+	text-align:left;
+	transition:all 1s linear;	
+	-webkit-transition:all 1s linear;
+	-moz-	-moz-transition:all 1s linear;
+	-o-transition:all 1s linear;
+
+}
+section a:hover{
+	padding:10px 13px;
+	text-decoration:none;
+}
