@@ -8,6 +8,14 @@ h1,h2,h3,h4,h5,h6,p,article,a,section {
 	padding: 0;
 }
 
+/*styling the load part*/
+#load{
+	background: #00D1FF;
+	z-index: 9999;
+	width: 99%;
+	height: 100%;
+}
+
 /* box which have to squares (.item) */
 .box {
 	width:100px;
