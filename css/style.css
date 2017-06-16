@@ -1,46 +1,155 @@
 /*  Designed and Developed by : Marwane Beriich
-*		Version : 0.1
-*		Last edited : 29/05/2017
+*	Version : 0.1
+*	Last edited : 29/05/2017 ==> 16/06/2017
 */
-body{
-	background:#2196f3;
-/* 	background:-o-linear-gradient(#55f,#5ff);
-	background:-moz-linear-gradient(#55f,#5ff);
-	background:-webkit-linear-gradient(#55f,#5ff);
-	background:linear-gradient(#55f,#5ff); */
-	height:100%;
-	background-attachment:fixed;
-	font-family:arial;
+
+/*setting values of most tags */
+h1,h2,h3,h4,h5,h6,p,article,a,section {
+	padding: 0;
 }
-header ,section{
-	width:60%;
-	margin:5% auto 0 auto;
-	padding:30px;
-	border-radius:4px;
-	background:#eee;
+
+/* box which have to squares (.item) */
+.box {
+	width:100px;
+	height:40px;
+	padding:0;
+	position:relative;
 	text-align:center;
+	margin:calc(50vh - 20px) auto;
+	animation:rotateIn 2s linear infinite;
 }
-header h1{
-	text-align:left;
-	color:#444;
-	font-size:30px;
+
+/*the square in box div*/
+.box .item{
+	width:40px;
+	height:40px;
+	position:absolute;
+	margin:0;
+	-webkit-box-shadow:  0px 1px  5px 2px #fff;
+	box-shadow:  0px 1px 5px 2px #fff;
 }
-section h2{
-	color:skyblue;
+
+/* first square [nth-child(1)] */
+.box .item:nth-child(1){
+	background : #FFF;
+	animation:leftAnime ease 2s infinite;
 }
-section a{
-	display:block;
-	padding:10px ;
-	font-size:20px;
-	color:orange;
-	text-align:left;
-	transition:all 1s linear;	
-	-webkit-transition:all 1s linear;
-	-moz-	-moz-transition:all 1s linear;
-	-o-transition:all 1s linear;
+/* first square [nth-child(2)] */
+.box .item:nth-child(2){
+	background:#FFF;
+	animation:rightAnime ease 2s infinite;
+}
+
+/* style for body */
+body{
+	background:#00D1FF;
+	background-attachment:fixed;
+	font-family:Arial;
+	padding: 0;
+	margin: 0;
+}
+
+/*styling the logo part*/
+.logo{
+	height: 100%;
+	float: left;
+}
+
+/*styling the main logo (SVG TYPE)*/
+.main-logo {
+	max-width: 100%;
+	height: 100%;
+	float: left;
+}
+
+/*styling the header */
+.header {
+	height: 80px;
+	background: #fff;
+}
+
+/*styling the fork button */
+.fork {
+	color: #fff;
+	padding: 9px;
+	font: 14px arial ;
+	background: #2ecc71;
+	border-radius: 5px;
+	border-bottom: 3px solid #27ae60;
+	width: 100px;
+	display: inline;
+}
+
+/*styling the view button */
+.view {
+	color: #fff;
+	font: 14px arial ;
+	padding: 9px;
+	background: #e74c3c;
+	border-radius: 5px;
+	border-bottom:3px solid #c0392b;
+	width: 100px;
+	display: inline;
+}
+
+/*styling the fork-plus button */
+.fork-plus {
+	display: inline;
+	float: right;
+	margin: 30px 25px ;
+	max-width: 100%;
+}
+
+/*styling the main-cont  */
+.main-cont{
+	width: 80%;
+	margin:0 auto;
+	padding:30px;
+}
+
+/*styling the all-post part */
+.all-post {
+	margin: 0 auto;
+}
+
+/*styling the post part */
+.post {
+	width: 220px;
+	background: #e9ffff;
+	height: 200px;
+	margin: 10px;
+	float: left;
+	position: relative;
+	border-radius: 5px;
 
 }
-section a:hover{
-	padding:10px 13px;
-	text-decoration:none;
+
+/*styling the post title */
+.post-title {
+	margin: 0;
+	padding: 10px;
+	font: 18px sans-serif;
+	color: #9a1cba;
+	border-bottom: 1px solid #9a1cba;
+}
+
+/*styling the post description */
+.description {
+	padding: 10px;
+	font: 16px sans-serif;
+	margin: 0;
+}
+
+/*styling the get-project */
+.get-project {
+	position: absolute;
+	bottom: 20px;
+	left:10px;
+}
+
+/*styling the sub-title*/
+.sub-title {
+	font: 34px sans-serif ;
+	margin: 10px;
+	color: #fff;
 }

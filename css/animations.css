@@ -1,0 +1,49 @@
+/* Animate for moving right and changing radius */
+@keyframes rightAnime{
+	0%{
+		left:60%;
+		border-radius:0;
+	}
+	50%{
+		left:0%;
+		border-radius:50%;
+	}
+	100%{
+		left:60%;
+		border-radius:0;
+	}
+}
+
+/* Animate for moving left and changing radius */
+@keyframes leftAnime{
+	0%{
+		left:0%;
+		border-radius:0;
+	}
+	50%{
+		left:60%;
+		border-radius:50%;
+	}
+	100%{
+		left:0%;
+		border-radius:0;
+	}
+}
+
+/* Animate for rotating 360deg by 2 parts(0-180deg & 180-360deg ) */
+@keyframes rotateIn {
+	0%{
+		transform :rotate(360deg);
+	}
+	25%{
+		transform : rotate(180deg);
+	}
+	100%{
+		transform : rotate(0deg);
+	}
+}
+
+/*set hover to fork and view button */
+.fork:hover ,.view:hover{
+	border-bottom: 0;
+}
