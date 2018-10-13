@@ -9,6 +9,6 @@ document.onreadystatechange = function () {
          document.getElementById('interactive');
          document.getElementById('load').style.display="none";
          document.getElementById('contents').style.display="block";
-     },1500);
+     },100);
   }
 }
